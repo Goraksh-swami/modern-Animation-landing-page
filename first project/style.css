@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html ,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: black;
+
+}
+
+.nav img{
+    height: 60px;
+}
+
+.nav {
+    background-color: black;
+    height: 80px;
+    color: white;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom:20px;
+}
+
+.nav2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.nav3{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+   margin-left: 80px;
+   gap: 30px;
+}
+
+#btn{
+    padding: 10px 20px;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 30px;
+}
+
+.nav2 :hover{
+    color: red;
+    
+}
+#btn:hover{
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 50px red;
+}
+
+.main h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.main h1 span{
+    background-color: brown;
+    font-size: 25px;
+    padding: 20px 40px;
+    margin: 0 30px;
+    border-radius: 50px;
+}
+
+.main #left-img{
+    height: 200px;
+    position: absolute;
+    top: 20%;
+    left: 6%;
+    border-radius: 20px;
+    box-shadow: 0 0 25px red;
+}
+.main #right-img{
+    height: 130px;
+    position: absolute;
+    bottom: 14%;
+    left: 22%;
+    border-radius: 20px;
+    position: absolute;
+    opacity: 0.5;
+   
+  
+}
+
+.main #right-bottom{
+    height: 142px;
+    margin-top: 20px;
+    position: absolute;
+    top: 14%;
+    right: 12%;
+    border-radius: 20px;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.main #left-bottom{
+    height: 200px;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    border-radius: 20px;
+    position: absolute;
+    box-shadow: 0 0 25px yellow;
+    
+    
+   
+}
+
+ #left-bottom:hover{
+    box-shadow: 0 0 80px yellow;
+    
+}
+ #left-img:hover{
+    box-shadow: 0 0 80px red;
+ }
+
+ .main h5{
+   margin-top: 40px;
+   margin-left: 50%;
+   font-size: 10px;
+
+
+ }
+
+ .main h5:hover{
+    color: red;
+    
+ }
